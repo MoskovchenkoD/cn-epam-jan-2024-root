@@ -7,7 +7,7 @@ import com.syndicate.deployment.annotations.lambda.LambdaHandler;
 import java.util.HashMap;
 import java.util.Map;
 
-@LambdaHandler(lambdaName = "task01",
+@LambdaHandler(lambdaName = "cmtr-34aed62e-hello_world-test",
 	roleName = "task01-role",
 	isPublishVersion = true,
 	aliasName = "${lambdas_alias_name}"
